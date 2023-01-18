@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "87237846709",
+    "project_id": "todo-service-8128f",
+    "storage_bucket": "todo-service-8128f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87237846709:android:8085d3ed015813c3c4c0fc",
+        "android_client_info": {
+          "package_name": "duy.lu.demo_01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87237846709-a9qhgsafct84ao3po3jqio97p8jd3qpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSEDRhumiuWFSpyN14jMtYVw1T42Id7Cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87237846709-a9qhgsafct84ao3po3jqio97p8jd3qpk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "87237846709-l7997lkopa7qbdjqmh2kmo4ml00fklo0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "duy.lu.demo01"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

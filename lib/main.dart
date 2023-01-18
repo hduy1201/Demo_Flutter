@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:demo_01/models/task.dart';
+import 'package:demo_01/pages/account/account.dart';
 import 'package:demo_01/pages/doing/doing.dart';
 import 'package:demo_01/pages/done/done.dart';
 import 'package:demo_01/pages/home/home.dart';
@@ -83,7 +84,15 @@ class MyHomePageState extends State<MyHomePage> {
     return Scaffold(
         backgroundColor: const Color(0xFFFFFFFF),
         appBar: AppBar(
-          title: const Text('Note App'),
+          title: const Center(child: Text('Note App')),
+          actions: [
+            IconButton(
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: ((context) => const AccountPage())));
+                },
+                icon: const Icon(Icons.supervised_user_circle))
+          ],
         ),
         body: buildBody(selectedPage),
         bottomNavigationBar: BottomNavigationBar(
